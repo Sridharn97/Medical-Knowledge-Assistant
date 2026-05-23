@@ -1,0 +1,85 @@
+Medical Knowledge Assistant Dataset
+
+Disclaimer: This dataset is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for personal medical concerns.
+
+Cardiovascular Health:
+ - High blood pressure (hypertension) is a common condition that increases the risk of heart disease and stroke.
+ - Regular physical activity, a balanced diet, smoking cessation, and maintaining a healthy weight reduce cardiovascular risk.
+ - High cholesterol can contribute to plaque buildup in arteries and increase the risk of heart attack and stroke.
+ - Common risk factors for heart disease include diabetes, smoking, obesity, inactivity, and a family history of early heart disease.
+ - Sudden chest pressure, pain radiating to the arm or jaw, sweating, and nausea can be warning signs of a heart attack.
+ - Swelling in the legs, shortness of breath when lying flat, and rapid weight gain can be signs of fluid retention or heart failure.
+
+Common Conditions and Symptoms:
+ - Fever is a common sign of infection but may also result from inflammatory conditions.
+ - Shortness of breath can indicate cardiac, pulmonary, or other systemic problems and should be evaluated if severe or sudden.
+ - Chest pain can be a sign of myocardial ischemia (heart attack) and requires urgent medical attention when sudden or severe.
+ - Cough, sore throat, and runny nose are often caused by viral upper respiratory infections.
+ - Persistent vomiting or diarrhea can lead to dehydration, dizziness, and electrolyte imbalance.
+ - Severe headache with neck stiffness, confusion, or neurologic symptoms needs urgent evaluation.
+ - Painful urination, urinary frequency, and urgency can suggest a urinary tract infection.
+
+Medications & Safety:
+ - Always follow prescribed dosages; many medications have potentially serious interactions.
+ - Do not stop or change prescription medications without consulting a healthcare professional.
+ - Acetaminophen overdose can cause serious liver injury.
+ - Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen can increase the risk of stomach irritation and kidney problems.
+ - Antibiotics should be taken only when prescribed and should be completed as directed unless a clinician advises otherwise.
+ - Sedating medications can increase fall risk, especially in older adults.
+
+Preventive Care:
+ - Vaccinations prevent serious infectious diseases; follow local public health guidance for schedules.
+ - Routine screenings (blood pressure, cholesterol, cancer screening) depend on age, sex, and risk factors.
+ - Hand hygiene, safe food handling, and staying home when sick can reduce the spread of infection.
+ - Annual checkups can help identify risk factors before they become serious health problems.
+ - Screening for depression, diabetes, and osteoporosis may be recommended based on age and risk profile.
+
+Nutrition & Lifestyle:
+ - A balanced diet with fruits, vegetables, whole grains, lean protein, and limited processed foods supports health.
+ - Adequate sleep, stress management, and regular exercise improve overall health and chronic disease outcomes.
+ - Staying hydrated is important, especially during illness, hot weather, and exercise.
+ - Limiting excess salt can help lower blood pressure in some people.
+ - Tobacco cessation is one of the most effective steps for improving long-term health.
+ - Alcohol misuse can contribute to liver disease, high blood pressure, and injury.
+
+Emergency Guidance:
+ - For life-threatening emergencies (e.g., severe chest pain, severe bleeding, sudden unconsciousness), call emergency services immediately.
+ - Facial droop, arm weakness, and speech difficulty are possible stroke warning signs.
+ - Severe allergic reactions can cause swelling of the face or throat, wheezing, and trouble breathing.
+ - New seizures, severe confusion, or collapse require urgent medical attention.
+
+Clinical Terms (short definitions):
+ - Hypertension: persistently elevated arterial blood pressure.
+ - Diabetes Mellitus: a group of metabolic diseases characterized by high blood sugar.
+ - Myocardial Infarction: heart muscle damage due to inadequate blood supply.
+ - Asthma: a chronic inflammatory airway condition that can cause wheezing and breathing difficulty.
+ - Anemia: a reduced level of red blood cells or hemoglobin that can cause fatigue and pallor.
+ - Infection: invasion of the body by harmful microorganisms such as bacteria, viruses, or fungi.
+ - Inflammation: the body's immune response to injury or infection, often causing redness, heat, swelling, and pain.
+
+Respiratory Health:
+ - Asthma symptoms may include wheezing, chest tightness, coughing, and shortness of breath.
+ - Chronic obstructive pulmonary disease (COPD) commonly causes progressive shortness of breath and chronic cough.
+ - Sudden shortness of breath with chest pain can be a sign of pulmonary embolism and needs urgent care.
+
+Digestive Health:
+ - Abdominal pain can be caused by indigestion, infection, inflammation, constipation, or a surgical emergency.
+ - Blood in the stool or black stools can indicate gastrointestinal bleeding.
+ - Ongoing heartburn or reflux may improve with diet changes, avoiding late meals, and medical evaluation if persistent.
+
+Mental Health:
+ - Anxiety can cause excessive worry, restlessness, muscle tension, and sleep problems.
+ - Depression may present with low mood, loss of interest, changes in appetite, fatigue, or hopelessness.
+ - Thoughts of self-harm or suicide are a medical emergency and require immediate help.
+
+Endocrine & Metabolic Health:
+ - Diabetes can cause increased thirst, frequent urination, fatigue, and blurred vision.
+ - Very high blood sugar may cause dehydration and confusion.
+ - Low blood sugar can cause sweating, shakiness, hunger, and confusion.
+
+Neurologic Health:
+ - Migraine often causes throbbing headache, light sensitivity, and nausea.
+ - Numbness, weakness, or trouble speaking may indicate a neurologic emergency.
+ - Dizziness can be caused by dehydration, inner ear problems, medication effects, or low blood pressure.
+
+Sources: General medical knowledge summaries and common clinical guidance (informational).
