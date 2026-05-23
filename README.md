@@ -1,41 +1,8 @@
 # Medical Knowledge Assistant
 
-Short description
+## Project Snapshot
 
-Disclaimer
 
-Files
-
-Setup (Windows)
-1. Create & activate a virtual environment (PowerShell):
-```powershell
-python -m venv venv
-& "venv\Scripts\Activate.ps1"
-```
-2. Install Python dependencies:
-```powershell
-pip install -r requirements.txt
-```
-3. Install Ollama and pull the models used (if you use Ollama locally):
-```powershell
-# Install Ollama: follow https://ollama.com/docs
-# Then pull the models referenced in the apps
-ollama pull nomic-embed-text
-ollama pull llama3.2:1b
-```
-
-Run
-```powershell
-streamlit run streamlit-app.py
-```
-```powershell
-python ollama-app.py
-```
-
-Notes & Next Steps
-
-Contact
-# Medical Knowledge Assistant
 
 Medical Knowledge Assistant is a small Retrieval-Augmented Generation (RAG) project that answers medical-style questions from a local knowledge file. It uses Ollama for embeddings and chat generation, and Streamlit for the user interface.
 
@@ -91,7 +58,14 @@ flowchart TD
 
 The sidebar also shows the retrieved snippets and their similarity scores so you can see what context influenced the answer.
 
-## Setup on Windows
+## Files
+
+- `medical.txt` - local medical knowledge snippets and disclaimer.
+- `streamlit-app.py` - Streamlit web UI that loads `medical.txt`, builds embeddings, and lets users ask questions.
+- `ollama-app.py` - Simple CLI demo that loads `medical.txt`, builds embeddings, retrieves context, and streams a response from Ollama.
+- `requirements.txt` - Python dependencies.
+
+## Setup (Windows)
 
 1. Create and activate a virtual environment in PowerShell:
 
@@ -106,16 +80,16 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-3. Install Ollama and pull the models used by the app:
+3. Install Ollama and pull the models used if you use Ollama locally:
 
 ```powershell
 # Install Ollama: follow https://ollama.com/docs
-# Then pull the models referenced in the app
+# Then pull the models referenced in the apps
 ollama pull nomic-embed-text
 ollama pull llama3.2:1b
 ```
 
-## Run the App
+## Run
 
 Start the Streamlit UI:
 
@@ -123,17 +97,26 @@ Start the Streamlit UI:
 streamlit run streamlit-app.py
 ```
 
-## Notes
+Run the CLI demo:
+
+```powershell
+python ollama-app.py
+```
+
+## Notes & Next Steps
 
 - The dataset is intentionally local and easy to inspect.
 - Retrieval quality depends on the amount and specificity of text in `medical.txt`.
 - If the sidebar shows low similarity scores, the dataset usually needs more detailed topic coverage or smaller, more focused chunks.
 - The app currently embeds each line independently, which keeps the implementation simple but can make headings compete with content if the dataset is too sparse.
-
-## Suggested Improvements
-
+- The app performs local retrieval over the `medical.txt` file and instructs the model to answer using only retrieved context. It does not provide medical advice.
+- To improve the assistant: expand `medical.txt` by topic, add citation metadata, add a stronger safety system prompt, or connect to a vetted medical knowledge base.
 - Add more topic-specific entries to `medical.txt`.
 - Split the dataset into cleaner chunks with fewer heading-only lines.
 - Add source labels or citations for each snippet.
 - Improve the system prompt with more explicit safety rules.
 - Connect the app to a vetted medical knowledge source if you want stronger factual coverage.
+
+## Contact
+
+If you want me to expand the dataset, add categories, or improve safety prompts, tell me which items to prioritize.
